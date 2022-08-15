@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EthLabs FE
 
-## Getting Started
+[https://ethlabs.vercel.app/](https://ethlabs.vercel.app/)
 
-First, run the development server:
+## Account for test:
 
-```bash
-npm run dev
-# or
+rayle@sponsee.io/Password55
+
+## _Keywords_
+
+- React, nextjs, typescript, redux, redux toolkit, react query
+- @mui, @material, formilk, yup
+- jest, babel-jest, cypress
+- Firebase
+- Vercel
+
+## Note
+
+- Use yarn instead of npm is better
+- Add .env file. Eg:
+
+```sh
+NEXT_PUBLIC_URL="http://localhost:3000"
+NEXT_PUBLIC_API_URL="https://us-central1-rayprojects.cloudfunctions.net/ethlabs/api/"
+
+# Setup firebase
+
+NEXT_PUBLIC_FIREBASE_PUBLIC_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+```
+
+- I also create an api for demo.
+  [api source](https://github.com/dung07t2/ethlabs-api)
+
+## Installation
+
+The api requires [Node.js](https://nodejs.org/) v14+ to run.
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+yarn
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For production deployment
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```sh
+yarn build
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Ideas
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- I'm trying to build nextjs boilerplate as well as a website like pinterest basically.
 
-## Learn More
+#### Structures
 
-To learn more about Next.js, take a look at the following resources:
+[structure](./screenshots/structure.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[home](./screenshots/home.png)
+[dashboard](./screenshots/dashboard.png)
+[newsFeed](./screenshots/newsfeed.png)
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Disclaimer: Everything you see here is open and free to use.
