@@ -118,7 +118,8 @@ const NewfeedPage = () => {
           ...values,
           contentUrls: contentUrl,
           imgUrls: images,
-          postedBy: 'zLpccnYeG9ZLjddShrgEWciNJib2'
+          postedBy: 'zLpccnYeG9ZLjddShrgEWciNJib2',
+          postedAt: ''
         };
         const url = `${process.env.NEXT_PUBLIC_API_URL}newsFeed/${newfeed.id}`;
 

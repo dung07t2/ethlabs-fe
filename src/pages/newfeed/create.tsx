@@ -41,6 +41,7 @@ const CreateNewfeedPage = () => {
         const body = {
           ...values,
           postedBy: 'zLpccnYeG9ZLjddShrgEWciNJib2',
+          postedAt: '',
           contentUrls: contentUrl,
           imgUrls: images
         };
